@@ -30,7 +30,7 @@
     margin: 20px auto;
   }
   .see-more {
-    margin-right: 100px;
+    text-align: center;
   }
 
   /* feature */
@@ -76,6 +76,6 @@
     gap: 40px;
   }
   .see-more {
-    text-align: left;
+    text-align: center;
   }
 }
