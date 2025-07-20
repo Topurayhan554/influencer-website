@@ -1,0 +1,43 @@
+@media screen and (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav-items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .company-parent {
+    border: none;
+    width: 100%;
+  }
+  .company-img {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    text-align: center;
+  } /* collection-section */
+  .influencer-container {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    margin: 20px auto;
+  }
+  .see-more {
+    margin-right: 50px;
+  }
+
+  /* feature */
+  .feature {
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+  }
+}
+tablet device @media screen {
+}

@@ -1,0 +1,217 @@
+/* common css */
+* {
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: 1rem;
+}
+
+.display-flex {
+  display: flex;
+}
+.mx-width {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  font-weight: 700;
+  color: #ffffff;
+  padding: 10px 25px;
+  border-radius: 40px;
+  background-color: #e02c6d;
+  border: none;
+}
+/* navbar style */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.nav-title {
+  font-size: 1.55rem;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+
+.nav-items a {
+  height: 100%;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #3a3a3a;
+  margin: 0 5px;
+}
+.nav-items a:hover {
+  background-color: #f0f0f0;
+  height: 30px;
+}
+.nav-items {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.icon-parent i {
+  color: #000000;
+  margin-right: 20px;
+}
+
+/* banner-style */
+.banner {
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-parent {
+  max-width: 580px;
+}
+.banner-title {
+  font-size: 3.35rem;
+  font-weight: 700;
+  color: #3a3a3a;
+
+  margin-bottom: 10px;
+}
+.banner-des {
+  color: #3a3a3a;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.banner img {
+  background-image: url(images/Circle\ design.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: ;
+  width: 100%;
+}
+
+/* company */
+.company-parent {
+  width: 1110px;
+  margin: 0 auto;
+  border-top: 2px solid #222;
+  border-bottom: 2px solid #222;
+  padding: 44px 0;
+  align-items: center;
+  margin: 50px auto;
+}
+.company-img {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+/* collection section */
+.start-parent {
+  align-items: center;
+}
+
+.start-parent .rating-val {
+  margin-left: 10px;
+}
+
+.influencer-items {
+  max-width: 1047px;
+  margin: 0 auto;
+  align-items: center;
+}
+.influencer-card {
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+}
+.influencer-image {
+  width: 100%;
+}
+.influencer-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.influencer-title {
+  font-size: 1.999rem;
+  font-weight: 600;
+  color: #3a3a3a;
+  text-align: center;
+}
+.card-title {
+  font-size: 1.999rem;
+  font-weight: 500;
+  color: #18191f;
+}
+.influencer-prize {
+  font-size: 1.5rem;
+  color: #000000;
+}
+.rating-val {
+  font-size: 0.99rem;
+  color: #5e6366;
+}
+.rating-des {
+  font-size: 0.99rem;
+  color: #5e6366;
+  width: 196px;
+}
+.influencer-items {
+  margin: 100px auto;
+}
+.see-more {
+  text-align: right;
+  margin-top: 50px;
+  font-weight: bold;
+  color: #e02c6d;
+}
+
+/* feature style */
+.feature {
+  max-width: 1110px;
+  margin: 20px auto;
+  align-items: center;
+  gap: 96px;
+}
+.feature h3 {
+  font-size: 2.45rem;
+  font-weight: bold;
+  color: #0a0826;
+  font-size: 1rem;
+}
+.feature p {
+  font-weight: bold;
+  color: #6c6c6c;
+}
+.feature .btn-primary {
+  border-radius: 0px;
+}
+/* .feature-parent {
+  width: 665px;
+} */
+
+/* footer */
+.icon-parent i {
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+  color: white;
+}
+footer {
+  background-color: #0a0826;
+  margin-top: 80px;
+  height: 200px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  justify-content: center;
+}
+footer h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.footer-des {
+  font-size: 0.999rem;
+  font-weight: 600;
+}
