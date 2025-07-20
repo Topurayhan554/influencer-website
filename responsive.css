@@ -30,7 +30,7 @@
     margin: 20px auto;
   }
   .see-more {
-    margin-right: 50px;
+    margin-right: 100px;
   }
 
   /* feature */
@@ -45,7 +45,8 @@
 /* tablet device  */
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .navbar {
-    flex-direction: column;
+    /* flex-direction: column; */
+    margin-left: 50px;
     text-align: center;
   }
   .banner {
